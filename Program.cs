@@ -6,7 +6,12 @@ namespace imc
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Paciente paulo = new Paciente("Paulo", 33, "M", 42, 1.70);
+
+            Calculadora calculadora = new Calculadora(paulo);
+
+            Console.WriteLine(paulo.nome);
+            Console.WriteLine(calculadora.imcCalculado());
         }
     }
 }

@@ -1,0 +1,11 @@
+/home/msantos/Documents/dev/dotnet_projects/imc/obj/Debug/netcoreapp3.0/imc.csprojAssemblyReference.cache
+/home/msantos/Documents/dev/dotnet_projects/imc/obj/Debug/netcoreapp3.0/imc.AssemblyInfoInputs.cache
+/home/msantos/Documents/dev/dotnet_projects/imc/obj/Debug/netcoreapp3.0/imc.AssemblyInfo.cs
+/home/msantos/Documents/dev/dotnet_projects/imc/bin/Debug/netcoreapp3.0/imc
+/home/msantos/Documents/dev/dotnet_projects/imc/bin/Debug/netcoreapp3.0/imc.deps.json
+/home/msantos/Documents/dev/dotnet_projects/imc/bin/Debug/netcoreapp3.0/imc.runtimeconfig.json
+/home/msantos/Documents/dev/dotnet_projects/imc/bin/Debug/netcoreapp3.0/imc.runtimeconfig.dev.json
+/home/msantos/Documents/dev/dotnet_projects/imc/bin/Debug/netcoreapp3.0/imc.dll
+/home/msantos/Documents/dev/dotnet_projects/imc/bin/Debug/netcoreapp3.0/imc.pdb
+/home/msantos/Documents/dev/dotnet_projects/imc/obj/Debug/netcoreapp3.0/imc.dll
+/home/msantos/Documents/dev/dotnet_projects/imc/obj/Debug/netcoreapp3.0/imc.pdb

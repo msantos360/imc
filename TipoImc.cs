@@ -1,0 +1,11 @@
+using System;
+
+enum TipoImc
+{   
+    ABAIXO_DO_PESO,
+	PESO_NORMAL,
+	SOBREPESO,
+	OBESIDADE_GRAL_I,
+	OBESIDADE_GRAL_II,
+	OBESIDADE_GRAL_III
+}
