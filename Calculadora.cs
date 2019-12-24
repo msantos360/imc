@@ -8,7 +8,7 @@ class Calculadora{
     }
 
     public double imcCalculado(){
-        return Math.Round(paciente.peso / (paciente.altura * paciente.altura), 2);
+        return Math.Round(paciente.peso / Math.Pow(paciente.altura, 2), 2);
     }
     
 }

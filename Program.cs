@@ -10,15 +10,17 @@ namespace imc
 
             Paciente paulo = new PacienteBuilder()
                 .comNome("Paulo")
-                .comPeso(62.5)
+                .comPeso(40.2)
                 .comAltura(1.70)
                 .comSexo("M")
                 .builder();
 
             Calculadora calculadora = new Calculadora(paulo);
+            CalculadorTipoImc c = new CalculadorTipoImc();
 
             Console.WriteLine("Paciente: " + paulo.nome);
             Console.WriteLine("IMC calculado: " + calculadora.imcCalculado());
+            Console.WriteLine("Tipo IMC: " + c.tipo(calculadora.imcCalculado()));
         }
     }
 }
