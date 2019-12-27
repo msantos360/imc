@@ -6,8 +6,6 @@ namespace imc
     {
         static void Main(string[] args)
         {
-            //Paciente paulo = new Paciente("Paulo", 33, "M", 42, 1.70);
-
             Paciente paulo = new PacienteBuilder()
                 .comNome("Paulo Lopes")
                 .comPeso(62)
