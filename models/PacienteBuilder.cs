@@ -5,7 +5,7 @@ class PacienteBuilder
 
     private int idade;
 
-    private string sexo;
+    private TipoSexo sexo;
 
     private double peso;
 
@@ -21,7 +21,7 @@ class PacienteBuilder
         return this;
     }
 
-    public PacienteBuilder comSexo(string sexo){
+    public PacienteBuilder comSexo(TipoSexo sexo){
         this.sexo = sexo;
         return this;
     }

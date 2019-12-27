@@ -6,15 +6,16 @@ class Paciente
 
     public int idade { get; }
 
-    public string sexo { get; }
+    public TipoSexo sexo { get; }
 
     public double peso { get; }
 
     public double altura { get; }
 
-    public Paciente(string nome,
+    public Paciente(
+        string nome,
         int idade,
-        string sexo,
+        TipoSexo sexo,
         double peso,
         double altura)
     {
@@ -23,6 +24,8 @@ class Paciente
         this.sexo = sexo;
         this.peso = peso;
         this.altura = altura;
+
+        new PacienteValidadtion(this);
     }
 
 }

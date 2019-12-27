@@ -6,12 +6,19 @@ class CalculadorTipoImc
         
         Imc t1 = new AbaixoDoPeso();
         Imc t2 = new PesoNormal();
-        Imc t0 = new SemImc();
+        Imc t3 = new SobrePeso();
+        Imc t4 = new ObesidadeGrauI();
+        Imc t5 = new ObesidadeGrauII();
+        Imc t6 = new ObesidadeGrauIII();
+        Imc semImc = new SemImc();
 
         t1.setProximo(t2);
-        t2.setProximo(t0);
+        t2.setProximo(t3);
+        t3.setProximo(t4);
+        t4.setProximo(t5);
+        t5.setProximo(t6);
+        t6.setProximo(semImc);
 
         return t1.tipoImc(valor);
-
     }
 }
