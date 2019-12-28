@@ -1,10 +1,10 @@
 using System;
 
-class PacienteValidadtion
+class PacienteValidation
 {
     private Paciente paciente;
 
-    public PacienteValidadtion(Paciente paciente){
+    public PacienteValidation(Paciente paciente){
         this.paciente = paciente;
 
         nome();

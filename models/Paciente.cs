@@ -25,7 +25,7 @@ class Paciente
         this.peso = peso;
         this.altura = altura;
 
-        new PacienteValidadtion(this);
+        new PacienteValidation(this);
     }
 
 }
